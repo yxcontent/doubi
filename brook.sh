@@ -167,7 +167,7 @@ Set_port(){
 Set_passwd(){
 	echo "请输入 Brook 密码"
 	stty erase '^H' && read -p "(默认: doub.io):" bk_passwd
-	[[ -z "${bk_passwd}" ]] && bk_passwd="doub.io"
+	[[ -z "${bk_passwd}" ]] && bk_passwd="linkss.ml"
 	echo && echo "========================"
 	echo -e "	密码 : ${Red_background_prefix} ${bk_passwd} ${Font_color_suffix}"
 	echo "========================" && echo
